@@ -92,7 +92,8 @@ li {
   color: #555574;
   margin-bottom: 70px;
   text-decoration: none;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
 .links a:hover{
