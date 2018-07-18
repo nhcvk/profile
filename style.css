@@ -1,0 +1,100 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  color: #555574;
+}
+
+h1 {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.profile {
+border-radius: 50%;
+width: 200px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+
+.place {
+  width: 400px;
+  margin:0 auto;
+}
+
+.intro {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 20px;
+  margin-bottom: 10px
+}
+
+.places {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 20px;
+  margin-bottom: 10px
+}
+
+.cities {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 450px;
+  margin: 0px auto;
+  margin-bottom: 5px
+  /*border-spacing: 20px;*/
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+  color: #555574;
+  margin-bottom: 70px;
+  text-decoration: none;
+}
+
+.links {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 20px;
+  margin-bottom: 10px
+}
+
+.links a {
+  color: #555574;
+  margin-bottom: 70px;
+  text-decoration: none;
+  margin-bottom: 10px
+}
+
+.links a:hover{
+  color: black;
+}
