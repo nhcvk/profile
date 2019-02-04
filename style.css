@@ -116,6 +116,45 @@ li {
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
+.mentions {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 20px;
+  margin-bottom: 10px
+}
+
+.sources {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 450px;
+  margin: 0px auto;
+  margin-bottom: 5px
+  /*border-spacing: 20px;*/
+}
+
+.mentions a {
+  color: #555574;
+  text-decoration: none;
+}
+
+.mentions a:hover{
+  color: red;
+}
+
+.logo {
+  width: 200px;
+  margin:0 auto;
+  margin-top: 10px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
